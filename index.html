@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticifation clone</title>
+    <style>
+        .all {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #class {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(136, 177, 191);
+            height: 900px;
+            width: 500px;
+            border-radius: 20px;
+        }
+
+        #header {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 40px;
+            padding-left: 40px;
+            font-weight: bolder;
+            cursor: pointer;
+        }
+        #three {
+            display: flex;
+            padding-left: 10px;
+            padding-top: 40px;
+            font-weight: bolder;
+        }
+
+        #mark {
+             display: flex;
+            flex-wrap: wrap;
+            padding-left: 186px;
+            padding-top: 40px; 
+            font-weight: bolder;
+            cursor: pointer;
+        }
+
+        @media screen and (max-width: 400px)
+        {
+            #mark{
+                position: relative;
+                top: -117px;
+                right: -30px;
+            }        
+        }
+        #all {
+            padding-top: 0px;
+        }
+
+        #m1contain {
+            display: flex;
+        }
+
+        #m1img {
+            padding-left: 12px;
+        }
+
+        #m1 {
+            padding-left: 20px;
+        }
+
+        #m2contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m2img {
+            padding-left: 12px;
+        }
+
+        #m2 {
+            padding-left: 20px;
+        }
+
+        #m3contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m3img {
+            padding-left: 12px;
+        }
+
+        #m3 {
+            padding-left: 20px;
+        }
+
+        #m4contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m4img {
+            padding-left: 12px;
+        }
+
+        #m4 {
+            padding-left: 20px;
+        }
+
+        #m5contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m5img {
+            padding-left: 12px;
+        }
+
+        #m5 {
+            padding-left: 20px;
+        }
+
+        #imgchess {
+            padding-left: 25px;
+        }
+
+        #m6contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m6img {
+            padding-left: 12px;
+        }
+
+        #m6 {
+            padding-left: 12px;
+        }
+
+        #m7contain {
+            display: flex;
+            padding-top: 30px;
+        }
+
+        #m7img {
+            padding-left: 12px;
+        }
+
+        #m7 {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div id="class">
+            <div id="header">
+                Notification
+            </div>
+            <div id="three">
+                3
+            </div>
+            <div id="mark">
+                Mark all as read
+            </div>
+            <div id="all">
+                <div id="m1contain">
+                    <div id="m1img">
+                        <img src="avatar-mark-webber.webp" alt="" height="55px" width="55px">
+                    </div>
+                    <div id="m1">
+                        <b> Mark Webber </b>reacted to your recent post <b> My first tournament today!</b>
+                        <br> 1m ago
+                    </div>
+                </div>
+                <div id="m2contain">
+                    <div id="m2img">
+                        <img src="avatar-angela-gray.webp" alt="" height="55px" width="55px">
+                    </div>
+                    <div id="m2">
+                        <b> Angela Gray </b>followed you <br> 5m ago
+                    </div>
+                </div>
+                <div id="m3contain">
+                    <div id="m3img">
+                        <img src="avatar-jacob-thompson.webp" alt="" height="55px" width="55px">
+                    </div>
+
+                    <div id="m3">
+                        <b>Jacob Thompson </b>has joined your group Chess Club 1 <br>1 day ago
+                    </div>
+                </div>
+                <div id="m4contain">
+                    <div id="m4img">
+                        <img src="avatar-rizky-hasanuddin.webp" alt="" height="55px" width="55px">
+                    </div>
+
+                    <div id="m4">
+                        <b> Rizky Hasanuddin </b>sent you a private message <br> 5 day ago
+                    </div>
+                </div>
+                <div id="m5contain">
+                    <div id="m5img">
+                        <img src="avatar-kimberly-smith.webp" alt="" height="55px" width="55px">
+                    </div>
+
+                    <div id="m5">
+                        <b> Kimberly Smith </b>commented on your picture <br> 1 week ago
+                    </div>
+
+                    <div id="imgchess">
+                        <img src="image-chess.webp" alt="" height="55px" width="55px">
+                    </div>
+                </div>
+                <div id="m6contain">
+                    <div id="m6img">
+                        <img src="avatar-nathan-peterson.webp" alt="" height="55px" width="55px">
+                    </div>
+
+                    <div id="m6">
+                        <b> Nathan Peterson </b> reacted to your recent post <b> 5 end-game strategies to increase your
+                            win
+                            rate </b>
+                        <br> 2 week ago
+                    </div>
+                </div>
+                <div id="m7contain">
+                    <div id="m7img">
+                        <img src="avatar-anna-kim.webp" alt="" height="55px" width="55px">
+                    </div>
+
+                    <div id="m7">
+                        <b> Anna Kim </b>left the group Chess Club <br> 2 weeks ago
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
