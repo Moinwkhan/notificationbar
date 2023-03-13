@@ -7,13 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Noticifation clone</title>
     <style>
+         *{
+            padding: 0px;
+            margin: 0px;
+        }
         .all {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
         }
+         .line {
+            background-color: red;
+            height: 2px;
+            animation: uline 2s ease-in-out .1s 1;
+            position: fixed;
+        }
 
+        @keyframes uline {
+            0% {
+                width: 0%
+            }
+
+            50% {
+                width: 40%;
+            }
+
+            100% {
+                width: 100%
+            }
+        }
         #class {
             display: flex;
             flex-wrap: wrap;
@@ -156,6 +179,7 @@
 </head>
 
 <body>
+       <div class="line"></div>
     <div class="all">
         <div id="class">
             <div id="header">
